@@ -7,3 +7,4 @@ We have two users , the admin side and the patient side .
  
 There is a part for the appointments , patient's departements ,>>>>>
  
+The password is 0000
