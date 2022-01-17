@@ -9,11 +9,11 @@ def AppointmentIndexInDoctorsDataBase (patient_ID) :
 				Appointment_index = Doctors_DataBase[i].index(j)
 				return Appointment_index,i
 
-print("********************************************************************")
-print("*                                                                  *")
-print("*             Welcome to Hospital Management System                *")
-print("*                                                                  *")
-print("********************************************************************")
+print("**************************************************************************")
+print("*                                                                        *")
+print("*             Welcome to Hospital Management System  by ROKHAYA          *")
+print("*                                                                        *")
+print("**************************************************************************")
 	
 	
 tries = 0
@@ -34,7 +34,7 @@ while tries_flag != "Close the program" :
 				Password = input("Please enter your password : ")
 				while True :
 					
-					if Password == "1234" :
+					if Password == "0000" :
 						print("-----------------------------------------")
 						print("|To manage patients Enter 1 		|\n|To manage doctors Enter 2	 	|\n|To manage appointments Enter 3 	|\n|To be back Enter E			|")
 						print("-----------------------------------------")
